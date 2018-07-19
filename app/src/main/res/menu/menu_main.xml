@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="@string/dashboard_fragment" />
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/myprofile_fragment" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="@string/messages_fragment" />
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/nav_help" />
+    </group>
+    <item android:title="@string/action_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="@string/action_settings"/>
+            <item
+                android:id="@+id/nav_terms_conditions"
+                android:icon="@android:drawable/sym_action_call"
+                android:title="@string/terms_condition" />
+            <item
+            android:id="@+id/privacy_policy"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="@string/privacy_policy" />
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="@string/nav_feedback" />
+
+            <item
+                android:id="@+id/signout"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+</menu>

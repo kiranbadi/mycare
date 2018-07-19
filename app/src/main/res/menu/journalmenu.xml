@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_journal_entry"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_carousel_black_24dp"
+        android:title="@string/add_journal_entry"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/print_journal_entry"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_quilt_black_24dp"
+        android:title="@string/print_journal_entry"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/email_journal_entry"
+        android:enabled="true"
+        android:icon="@drawable/ic_work_black_24dp"
+        android:title="@string/email_journal_entry"
+        app:showAsAction="ifRoom" />
+</menu>

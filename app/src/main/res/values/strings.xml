@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">myCARE</string>
+    <string name="signInBtn">Sign In</string>
+
+    <string name="searchtextHint">Search Nearby Physicians/Pharmacy</string>
+    <string name="username">Enter Login Id</string>
+    <string name="inputEmail">Enter valid Email</string>
+    <string name="inputPhone">Enter Phone Number</string>
+    <string name="inputPassword">Enter Valid Password</string>
+    <string name="register">Register</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="terms_condition">Terms and Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_test_fragment">TestFragment</string>
+
+    <string name="dashboard_fragment">Dashboard</string>
+    <string name="myprofile_fragment">My Profile</string>
+    <string name="messages_fragment">My Messages</string>
+
+
+    <string name="myappointment_fragment">My Appointment</string>
+    <string name="mydoctor_fragment">My Doctor</string>
+    <string name="myfriends_fragment">My Friends</string>
+    <string name="myhealth_fragment">My Health</string>
+    <string name="myjournal_fragment">My Journal</string>
+    <string name="mynotes_fragment">My Notes</string>
+    <string name="mypharmacy_fragment">My Pharmacy</string>
+    <string name="myrequest_fragment">My Request</string>
+    <string name="mytreatment_fragment">My Treatment</string>
+    <string name="mygallery_fragment">My Gallery</string>
+    <string name="user_name">kiranbadi@yahoo.com</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_feedback">Give us feedback</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="myappointment_card_view_text">My next appointment is scheduled on 19th July 2018.</string>
+
+    <string-array name="dashboarditemsArray">
+        <item>My Appointment</item>
+        <item>My Doctor</item>
+        <item>My Friends</item>
+        <item>My Health</item>
+        <item>My Journal</item>
+        <item>My Notes</item>
+        <item>My Pharmacy</item>
+        <item>My Request</item>
+        <item>My Treatment</item>
+        <item>My Gallery</item>
+    </string-array>
+
+    <string-array name="myRequestArray">
+        <item>Transportation</item>
+        <item>Meals</item>
+        <item>Child Care</item>
+        <item>Errands</item>
+        <item>Visits</item>
+        <item>Handiwork</item>
+        <item>Other</item>
+    </string-array>
+    <string name="myrequest_text">You can make the request to your connections for below services </string>
+
+    <string name="myjournal_text">Please get Started by adding your first Journey Entry</string>
+    <string name="add_journal_entry">Add</string>
+    <string name="print_journal_entry">Print</string>
+    <string name="email_journal_entry">Email</string>
+    <string name="title_activity_bottom_test">BottomTest</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
