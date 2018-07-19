@@ -52,33 +52,35 @@ public class DashboardFragment extends Fragment {
              //   viewPager.setCurrentItem(tab.getPosition());
                 switch (tab.getPosition()) {
                     case 0:
+                        // adapter.addFragment(new MyAppointment(), "My Appointments");
                         fragment = new MyAppointment();
                         break;
                     case 1:
-                        fragment = new MyDoctor();
-                        break;
-                    case 2:
+                      //  adapter.addFragment(new MyFriends(), "My Friends");
                         fragment = new MyFriends();
                         break;
-                    case 3:
-                        fragment = new MyHealth();
-                        break;
-                    case 4:
+                    case 2:
+                        // adapter.addFragment(new MyJournal(), "My Journal");
                         fragment = new MyJournal();
                         break;
+                    case 3:
+                        //  adapter.addFragment(new MyRequest(), "My Request");
+                        fragment = new MyRequest();
+                        break;
+                    case 4:
+                        // adapter.addFragment(new MyDoctor(), "My Doctor");
+                        fragment = new MyDoctor();
+                        break;
                     case 5:
-                        fragment = new MyNotes();
+                        fragment = new MyHealth();
                         break;
                     case 6:
                         fragment = new MyPharmacy();
                         break;
                     case 7:
-                        fragment = new MyRequest();
-                        break;
-                    case 8:
                         fragment = new MyTreatment();
                         break;
-                    case 9:
+                    case 8:
                         fragment = new MyGallery();
                         break;
                 }
@@ -103,13 +105,12 @@ public class DashboardFragment extends Fragment {
     private void setupViewPager(ViewPager viewPager) {
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new MyAppointment(), "My Appointments");
-        adapter.addFragment(new MyDoctor(), "My Doctor");
         adapter.addFragment(new MyFriends(), "My Friends");
-        adapter.addFragment(new MyHealth(), "My Health");
         adapter.addFragment(new MyJournal(), "My Journal");
-        adapter.addFragment(new MyNotes(), "My Notes");
-        adapter.addFragment(new MyPharmacy(), "My Pharmacy");
         adapter.addFragment(new MyRequest(), "My Request");
+        adapter.addFragment(new MyDoctor(), "My Doctor");
+        adapter.addFragment(new MyHealth(), "My Health");
+        adapter.addFragment(new MyPharmacy(), "My Pharmacy");
         adapter.addFragment(new MyTreatment(), "My Treatment");
         adapter.addFragment(new MyGallery(),"My Gallery");
         viewPager.setAdapter(adapter);

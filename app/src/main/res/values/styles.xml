@@ -16,4 +16,10 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="MyMenu">
+        <item name="android:textSize">18sp</item> //size desired.
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">#FFFFFF</item> //background
+    </style>
+
 </resources>

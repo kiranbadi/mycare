@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fund_raising_menu_view"
+        android:icon="@drawable/ic_accessible_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/fundraising_view" />
+
+    <item
+        android:id="@+id/fund_raising_menu_create"
+        android:icon="@drawable/ic_view_week_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/fundraising_create" />
+
+    <item
+        android:id="@+id/fund_raising_menu_remainder"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/fundraising_ask" />
+
+</menu>

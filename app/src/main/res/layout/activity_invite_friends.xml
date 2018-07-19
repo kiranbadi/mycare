@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    tools:context=".activity.InviteFriendsActivity">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:label="@string/app_name"
+    android:paddingTop="?attr/actionBarSize"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/id_invite_friends_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/add_my_friends_invite_form"
+        android:textSize="20dp" />
+
+    <!--Put form controls here-->
+
+    <EditText
+        android:id="@+id/EditTextName"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_name"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextPhone"
+        android:layout_height="wrap_content"
+        android:hint="@string/prompt_phone"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:inputType="text|phone"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextMessage"
+        android:layout_height="wrap_content"
+        android:hint="@string/invite_friend_message"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:layout_width="fill_parent">
+    </EditText>
+
+    <Button
+        android:id="@+id/Button_Invite_Friend"
+        android:layout_height="wrap_content"
+        android:text="@string/InviteButton"
+        android:textSize="20dp"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_width="fill_parent">
+    </Button>
+
+</LinearLayout>
+</ScrollView>

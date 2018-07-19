@@ -16,7 +16,7 @@ import butterknife.BindView;
 public class LoginActivity extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
 
-
+//    @BindView(R.id.name) EditText _nameText;
     @BindView(R.id.email) EditText _emailText;
     @BindView(R.id.password) EditText _passwordText;
   //  @BindView(R.id.email_sign_in_button) Button _loginButton;
@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
             setSupportActionBar(toolbar);
         }
    //     ButterKnife.bind(this);
-        Button EmailsignInButton = (Button) findViewById(R.id.email_sign_in_button);
+        Button EmailsignInButton = findViewById(R.id.email_sign_in_button);
         EmailsignInButton.setOnClickListener(new View.OnClickListener() {
 
             @Override

@@ -14,8 +14,12 @@
             android:icon="@android:drawable/ic_menu_send"
             android:title="@string/messages_fragment" />
         <item
+            android:id="@+id/nav_fundraiser"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/MyFundRaiserEvent" />
+        <item
             android:id="@+id/nav_resources"
-            android:icon="@android:drawable/ic_menu_delete"
+            android:icon="@android:drawable/ic_menu_share"
             android:title="@string/nav_help" />
     </group>
     <item android:title="@string/action_settings">

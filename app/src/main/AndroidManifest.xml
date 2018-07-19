@@ -28,6 +28,11 @@
         <activity android:name=".activity.HelpActivity" />
         <activity android:name=".activity.FeedbackActivity" />
         <activity android:name=".activity.DashBoard" />
+        <activity android:name=".activity.TestActivityListView" />
+        <activity android:name=".activity.InviteFriendsActivity" />
+        <activity
+            android:name=".activity.FundRaisingActivity"
+            android:label="@string/title_activity_fund_raising"></activity>
     </application>
 
 </manifest>

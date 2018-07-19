@@ -73,6 +73,10 @@
                     fragment = new MyProfileFragment();
                     break;
 
+                case R.id.nav_fundraiser:
+                    intent = new Intent(this, FundRaisingActivity.class);
+                    break;
+
                 case R.id.nav_help:
                     intent = new Intent(this, HelpActivity.class);
                     break;

@@ -17,8 +17,6 @@
         android:id="@+id/myappointment_card_view_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"
-        android:paddingTop="50dp"
         card_view:cardCornerRadius="4dp">
 
         <TextView
@@ -27,8 +25,7 @@
             android:layout_height="100dp"
             android:layout_marginBottom="10dp"
             android:text="@string/myappointment_card_view_text"
-            android:paddingBottom="50dp"
-            android:textSize="20dp" />
+           android:textSize="20dp" />
 
         <CalendarView
             android:id="@+id/appointmentcalendarView"
