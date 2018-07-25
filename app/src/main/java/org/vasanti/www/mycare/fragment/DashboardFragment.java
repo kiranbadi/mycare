@@ -92,11 +92,11 @@ public class DashboardFragment extends Fragment {
                }
 
             @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
+            public void onTabUnselected(TabLayout.Tab tabs) {
 
             }
             @Override
-            public void onTabReselected(TabLayout.Tab tab) {}
+            public void onTabReselected(TabLayout.Tab tabs) {}
         });
         return view;
     }

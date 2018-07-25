@@ -12,7 +12,7 @@
     <string name="prompt_name">First Last Name</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_phone">Valid Phone Number</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -40,14 +40,14 @@
 
 
     <string name="myappointment_fragment">My Appointment</string>
-    <string name="mydoctor_fragment">My Doctor</string>
+    <string name="mydoctor_fragment">401 Harrison Oaks Blvd, Cary, NC 27513</string>
     <string name="myfriends_fragment">My Friends</string>
-    <string name="myhealth_fragment">My Health</string>
+    <string name="myhealth_fragment">My Health Information</string>
     <string name="myjournal_fragment">My Journal</string>
     <string name="mynotes_fragment">My Notes</string>
     <string name="mypharmacy_fragment">My Pharmacy</string>
     <string name="myrequest_fragment">My Request</string>
-    <string name="mytreatment_fragment">My Treatment</string>
+    <string name="mytreatment_fragment">My Treatment Information</string>
     <string name="mygallery_fragment">My Gallery</string>
     <string name="user_name">kiranbadi@yahoo.com</string>
     <string name="nav_help">Help</string>
@@ -112,6 +112,8 @@
     <string name="fundraising_ask">Send Remainder</string>
 
     <string name="MyFundRaiserEvent">My FundRaiser Event</string>
+
+    <string name="myjournal_text_1">Administrators can really make it tough on teachers.  I’ve had numerous conferences with her about what’s going on in this school, but she doesn’t seem to want to hear it.  We had a very rough time when we started this year.  Students who can work by themselves do okay, but the others continue to fail.  Since my time to work individually with them has been cut in half, they don’t stand much of a chance.   The problem is how the students are distributed among the classrooms.  We had this meeting and the principal asked me to take notes on what happened and what was decided.  I was supposed to watch her to see how she handled a difficult situation.  Needless to say, it didn’t go very well.</string>
 
     <string name="MyFund_raising_text">Fund Raising Story goes here.Fundraising letters are useful year-round, but certain letters require specific timing. For instance, an event-related letter should be sent out approximately two months prior to the event.</string>
 
